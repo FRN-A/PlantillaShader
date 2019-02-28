@@ -100,3 +100,11 @@ void Shader::verificarVinculacion(GLuint id) {
 		cout << "No se pudo validar la vinculacion" << endl;
 	}
 }
+
+void Shader::enlazar() {
+	glUseProgram(shaderID);
+}
+
+void Shader::desenlazar() {
+	glUseProgram(0);
+}
