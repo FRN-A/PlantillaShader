@@ -12,5 +12,5 @@ struct vec4 {
 
 struct Vertice {
 	vec3 posicion;
-	vec3 color;
+	vec4 color;
 };
